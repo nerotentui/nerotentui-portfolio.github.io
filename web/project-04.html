@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cursor"></div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><div class="close"></div></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a id="logo-hover" href="index.html"><div class="logo"></div></a>
+          </li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="project.html">Project</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="button" onclick="showSidebar()">
+            <a href="#"><div class="menu"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="project4-container">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            class="see-other"
+          >
+            <a href="project.html">
+              <p>see my other works</p>
+            </a>
+            <img src="images/see-other.gif" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-center"
+            class="icon"
+          >
+            <img src="images/icon-showcase.png" />
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-center"
+            class="project4-text"
+          >
+            <h1>Milestones in human history</h1>
+            <h3>
+              A group project with Lianna, Minh Chau, Phuc Duong, and Ky Anh
+            </h3>
+            <p>
+              Having chosen the theme of “Historical Eras and Figures” concept
+              around humankind most important milestones. We chose to design the
+              12 icons in a cherishable manner, celebrating their significance
+              with a modern look and a bright color palette. This project aims
+              to look back and showcase these milestones in a positive light and
+              how they can emit hope and ambitions for the future.
+            </p>
+          </div>
+          <div class="gif-container">
+            <img
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              src="images/Medicine.gif"
+            />
+            <img
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              src="images/Lightbulb.gif"
+            />
+            <img
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              src="images/Fire.gif"
+            />
+            <img
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+              src="images/Astronomy.gif"
+            />
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>

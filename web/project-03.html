@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="cursor"></div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><div class="close"></div></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a id="logo-hover" href="index.html"><div class="logo"></div></a>
+          </li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="project.html">Project</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="button" onclick="showSidebar()">
+            <a href="#"><div class="menu"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="project3-container">
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="200"
+            class="see-other"
+          >
+            <a href="project.html">
+              <p>see my other works</p>
+            </a>
+            <img src="images/see-other.gif" />
+          </div>
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="200"
+            class="video"
+          >
+            <iframe
+              width="500"
+              height="450"
+              src="https://www.youtube.com/embed/HKqmDfKDfts?si=hEaB90w7eU1_CYxo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            class="project3-text"
+          >
+            <h1>Sunflower & Moon</h1>
+            <p>
+              Sunflower & Moon is an interactive web-based poetry. This poem
+              aims to tell a story about a toxic relationship where one person
+              is cheating on another. Viewers can see the feeling of deep
+              despair, like a knife backstab, a betrayal. Agony and pain as each
+              seconds pass by. A toxic relationship could form from neglect or
+              abuse, but part of this is also from choosing the wrong people to
+              be with.
+            </p>
+            <a
+              href="https://hellopoetry.com/poem/2018036/unfortunately-about-a-cheating-boy-august-2017/"
+              target="_blank"
+              >Original poem by Sophie Kim</a
+            >
+          </div>
+          <div class="demo-pictures">
+            <img
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              src="images/demo1.png"
+            />
+            <img
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              src="images/demo2.png"
+            />
+            <img
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              src="images/demo3.png"
+            />
+            <img
+              data-aos="flip-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              src="images/demo4.png"
+            />
+          </div>
+          <div
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            class="call-to-action"
+          >
+            <a href="https://nerotentui.github.io/" target="_blank">
+              <p>Interact with it!</p>
+            </a>
+            <img src="images/call-to-action.gif" />
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </body>
+</html>
