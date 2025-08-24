@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="cursor"></div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><div class="close"></div></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a id="logo-hover" href="index.html"><div class="logo"></div></a>
+          </li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="project.html">Project</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="button" onclick="showSidebar()">
+            <a href="#"><div class="menu"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="project-container">
+          <div class="project-text">
+            <p>What do you want to see?</p>
+          </div>
+          <div class="note-container">
+            <a class="note1" href="project-01.html"></a>
+            <a class="note2" href="project-02.html"></a>
+            <a class="note3" href="project-03.html"></a>
+            <a class="note4" href="project-04.html"></a>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>

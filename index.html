@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cursor"></div>
+      <nav id="navbar">
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><div class="close"></div></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a id="logo-hover" href="index.html"><div class="logo"></div></a>
+          </li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="project.html">Project</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="button" onclick="showSidebar()">
+            <a href="#"><div class="menu"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="landing-container">
+          <div class="hand"></div>
+          <div class="info">
+            <p class="date"><script src="script.js"></script></p>
+            <p>Name: Nero</p>
+          </div>
+          <div class="landing-text-1">
+            <div class="inner">
+              <a class="front" href="about.html"><p>Who am I?</p></a>
+              <a class="back" href="about.html"><p>click me to find out~</p></a>
+            </div>
+          </div>
+          <div class="landing-text-2">
+            <div class="inner">
+              <a class="front" href="project.html"><p>What do I do?</p></a>
+              <a class="back" href="project.html"
+                ><p>click me to find out~</p></a
+              >
+            </div>
+          </div>
+          <div class="landing-text-3">
+            <div class="inner">
+              <a class="front" href="contact.html"><p>How to contact me?</p></a>
+              <a class="back" href="contact.html"
+                ><p>click me to find out~</p></a
+              >
+            </div>
+          </div>
+          <div class="back-ground-line">
+            <svg
+              viewBox="0 0 1440 374"
+              preserveAspectRatio="xMidYMid meet"
+              fill="none"
+              preserveAspectRatio="xMidYMax meet"
+              style="display: block; margin: 0 auto"
+            >
+              <path
+                d="M-18 341.15C-18 341.15 301.722 -61.4603 490 63.6502C591.99 131.422 532.426 275.824 636 341.15C811.873 452.077 1260 201.5 1119.5 63.6502C1029.28 -24.8683 873.085 -8.80576 792 88.1502C694.771 204.41 1143.5 252.65 1143.5 252.65L1458 306.15"
+                stroke="#67869A"
+                stroke-width="10"
+              />
+            </svg>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>

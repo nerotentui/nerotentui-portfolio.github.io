@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="cursor"></div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><div class="close"></div></a>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="project.html">Project</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a id="logo-hover" href="index.html"><div class="logo"></div></a>
+          </li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="project.html">Project</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="button" onclick="showSidebar()">
+            <a href="#"><div class="menu"></div></a>
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="about-container">
+          <div class="about"><h4>hover/click to see!</h4></div>
+          <div class="about-text-01">
+            <p>
+              I love watching live streams while drawing. I also love gaming
+              with friends!
+            </p>
+            <svg
+              width="30%"
+              height="auto"
+              viewBox="0 0 131 67"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M130 62C130 62 80.6037 70.7749 54 57.5C30.5148 45.7812 8 8.5 8 8.5M8 8.5L2 35M8 8.5L38 2"
+                stroke="black"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="about-text-02">
+            <p>
+              I'm an artist and a designer student based in Ho Chi Minh, Viet
+              Nam
+            </p>
+            <svg
+              width="30%"
+              height="auto"
+              viewBox="0 0 205 125"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.5 111C0.5 111 111.102 143.749 150 100C176.055 70.6953 174 2.5 174 2.5M174 2.5L137.5 22.5M174 2.5L203.5 27.5"
+                stroke="black"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="about-text-03">
+            <p>
+              I have experience in various creative programs like Photoshop,
+              Illustrator, Figma, Davinci, Blender, and Procreate.
+            </p>
+            <svg
+              width="92"
+              height="64"
+              viewBox="0 0 92 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M90.7246 62.282L1.79417 21.25M1.79417 21.25L36.0022 1.5M1.79417 21.25L6.74994 47.8336"
+                stroke="black"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="about-text-04">
+            <p>
+              Currently studying for my bachelor's degree of Digital Media in
+              RMIT
+            </p>
+            <svg
+              width="176"
+              height="55"
+              viewBox="0 0 176 55"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32649 43.0808C1.32649 43.0808 66.0468 60.9899 104.086 48.0581C132.7 38.3305 167.622 3.87466 167.622 3.87466M167.622 3.87466L174.441 44.3035M167.622 3.87466L125.696 1.81959"
+                stroke="black"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+        </div>
+      </article>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
